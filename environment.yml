@@ -21,8 +21,4 @@ dependencies:
   - pyarrow
   - pip
   - pip:
-#     - "--editable=git+ssh://github.com/enningb/eencijfer.git@#egg=eencijfer"
-#     - "/Users/bramenning/git/eencijfer develop"
      - altair_data_server
-#  - conda-develop:
-#     - "/Users/bramenning/git/hsleiden"
