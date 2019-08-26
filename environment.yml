@@ -1,0 +1,28 @@
+name: hl-analytics
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - altair
+  - anaconda
+  - pandas
+  - numpy
+  - python=3.6
+  - matplotlib
+  - bokeh
+  - jupyter
+  - jupyterlab
+  - nb_conda_kernels
+  - ipykernel
+  - openpyxl
+  - xlrd
+  - googlemaps
+  - pyarrow
+  - pip
+  - pip:
+#     - "--editable=git+ssh://github.com/enningb/eencijfer.git@#egg=eencijfer"
+#     - "/Users/bramenning/git/eencijfer develop"
+     - altair_data_server
+#  - conda-develop:
+#     - "/Users/bramenning/git/hsleiden"
