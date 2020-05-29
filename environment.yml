@@ -22,4 +22,5 @@ dependencies:
   - pip
   - pip:
      - altair_data_server
+     - altair-saver
      - savReaderWriter
