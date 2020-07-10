@@ -5,9 +5,14 @@ channels:
   - defaults
 dependencies:
   - altair
-  - anaconda
+  - future
+  - pyarrow
   - pandas
   - numpy
+  - pyodbc
+  - sqlalchemy
+  - pingouin
+  - scikit-learn
   - python=3.8
   - matplotlib
   - bokeh
@@ -17,10 +22,10 @@ dependencies:
   - ipykernel
   - openpyxl
   - xlrd
-  - googlemaps
-  - pyarrow
   - pip
+  - click
+  - python-dotenv
+  - altair_data_server
+  - altair_saver
   - pip:
-     - altair_data_server
-     - altair-saver
      - savReaderWriter
