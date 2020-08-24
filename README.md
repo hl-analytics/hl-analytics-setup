@@ -37,6 +37,7 @@ Vaak beginnen die met een aantal standaard imports, zoals ```import pandas as pd
     import numpy as np
     import pandas as pd
     import altair as alt
+    import os
     
     ANALYTICS_DATA_PATH_2019="<pad naar directory met data>"
     # voorbeeld van pad op Windows:
