@@ -24,7 +24,7 @@ Vaak beginnen die met een aantal standaard imports, zoals ```import pandas as pd
 
     1. op MacOS: /Users/<gebruikersnaam>/.ipython/profile_default/startup
     1. op Linux: /home/<gebruikersnaam>/.ipython/profile_default/startup
-    1. op Windows: C:\Users\<gebruikersnaam>\.ipython\profile_default\startup
+    1. op Windows: C:\Users\gebruikersnaam\.ipython\profile_default\startup
 
 1. als dat *niet* zo is, geef dan het volgende commando:
     ```
