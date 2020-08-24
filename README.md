@@ -8,7 +8,9 @@ Om Python te kunnen gebruiken op de PC van Hogeschool Leiden gebruiken we Anacon
 1. ga naar de directory waar het bestand ```environment.yml``` staat
 1. geef het volgende commando:
 
+    ```
     conda env create -f environment.yml
+    ```
 
 1. nu wordt de environment aangemaakt
 
@@ -20,14 +22,15 @@ Vaak beginnen die met een aantal standaard imports, zoals ```import pandas as pd
 
 1. controleer of de volgende directory bestaat:
 
-    op MacOS: /Users/<gebruikersnaam>/.ipython/profile_default/startup
-    op Linux: /home/<gebruikersnaam>/.ipython/profile_default/startup
-    op Windows: C:\Users\<gebruikersnaam>\.ipython\profile_default\startup
+    1. op MacOS: /Users/<gebruikersnaam>/.ipython/profile_default/startup
+    1. op Linux: /home/<gebruikersnaam>/.ipython/profile_default/startup
+    1. op Windows: C:\Users\<gebruikersnaam>\.ipython\profile_default\startup
 
 1. als dat *niet* zo is, geef dan het volgende commando:
-
+    ```
     ipython profile create
-    
+    ```
+
 1. maak in die directory een bestand ```01-analytics.py``` (LET OP: eindigt dus op .py en niet op .txt oid) en zet daar in:
  
     ```
@@ -37,7 +40,7 @@ Vaak beginnen die met een aantal standaard imports, zoals ```import pandas as pd
     
     ANALYTICS_DATA_PATH_2019="<pad naar directory met data>"
     # voorbeeld van pad op Windows:
-    # "G:\Data\IR-data - data met persoonsgegevens\2020-2021"
+    # "G:\Data\IR-data - data\2020-2021"
     ANALYTICS_DATA_PATH_2020="<pad naar directory met data>"
     ``` 
 1. ieder keer dat je nu een notebook gebruikt, zijn deze imports al gedaan.
@@ -46,12 +49,14 @@ Vaak beginnen die met een aantal standaard imports, zoals ```import pandas as pd
 # Starten van environment
 1. activeer de environment (dat doe je in het vervolg iedere keer dat je in deze environment wil werken)
 
+    ```
     conda activate analytics
-    
+    ```
 1. daarna start je bijvoorbeeld Jupyter lab met:
 
+    ```
     jupyter lab
-    
+    ```
     
 # Updaten van environment
 Van tijd tot tijd zal het bestand environment.yml worden aangevuld (andere versie van packages, nieuwe packages toegevoegd, oude verwijderd). Om je environment te updaten volg je de volgende stappen.
@@ -60,9 +65,13 @@ Van tijd tot tijd zal het bestand environment.yml worden aangevuld (andere versi
 1. start PowerShell
 1. activeer de ```analytics```-environment:
 
+    ```
     conda activate analytics
+    ```
     
 1. ga naar de directory waar het bestand ```environment.yml``` staat
 1. geef het volgende commando:
 
+    ```
     conda env update --file environment.yml  --prune
+    ```
