@@ -4,28 +4,36 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - altair
-  - future
-  - pyarrow
+  - python=3.8
   - pandas
   - numpy
-  - pyodbc
-  - sqlalchemy
-  - pingouin
-  - scikit-learn
-  - python=3.8
-  - matplotlib
-  - bokeh
   - jupyter
   - jupyterlab
   - nb_conda_kernels
   - ipykernel
+# code format
+  - black
+# database
+  - pyodbc
+  - sqlalchemy
+# statistiek
+  - pingouin
+  - scikit-learn
+# excel en arrow
+  - pyarrow
   - openpyxl
   - xlrd
-  - pip
+# scripting
   - click
   - python-dotenv
+# visualisatie
+  - matplotlib
+  - seaborn
+  - plotly
+  - bokeh
+  - altair
   - altair_data_server
   - altair_saver
+  - pip
   - pip:
      - savReaderWriter
