@@ -13,6 +13,7 @@ dependencies:
   - ipykernel
 # code format
   - black
+  - isort
 # database
   - pyodbc
   - sqlalchemy
