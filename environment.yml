@@ -24,6 +24,8 @@ dependencies:
   - pyarrow
   - openpyxl
   - xlrd
+# documentatie
+  - mkdocs
 # scripting
   - click
   - python-dotenv
@@ -38,3 +40,4 @@ dependencies:
   - pip
   - pip:
      - savReaderWriter
+     - keplergl

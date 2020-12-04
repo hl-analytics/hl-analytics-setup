@@ -1,0 +1,17 @@
+site_name: analytics setup
+extra_css:
+    - css/extra.css
+theme:
+  name: 'mkdocs'
+  palette:
+    primary: red
+nav:
+    - 'Installatie':
+      - 'installatie/installeer_github_desktop.md'
+      - Installeer (Anaconda) Python: 'installatie/installeer_python.md'
+    - 'Configuratie':
+      - Aanmaken analytics environment: 'aanmaken_analytics_environment.md'
+      - Standaard imports: 'imports.md'
+      - Updates: updaten_environment.md'
+    - Werken met analytics-environment:
+      - 'werken_met_analytics_environment.md'
