@@ -3,15 +3,19 @@ extra_css:
     - css/extra.css
 theme:
   name: 'mkdocs'
+  features:
+    - navigation.tabs
   palette:
     primary: red
 nav:
+    - index.md
     - 'Installatie':
       - 'installatie/installeer_github_desktop.md'
       - Installeer (Anaconda) Python: 'installatie/installeer_python.md'
     - 'Configuratie':
       - Aanmaken analytics environment: 'aanmaken_analytics_environment.md'
       - Standaard imports: 'imports.md'
-      - Updates: updaten_environment.md'
+      - Updates: 'updaten_environment.md'
     - Werken met analytics-environment:
+      - 'powershell.md'
       - 'werken_met_analytics_environment.md'
