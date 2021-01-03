@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   - python=3.8
-  - pandas
+  - pandas>=1.0
   - numpy
   - jupyter
   - jupyterlab
@@ -29,6 +29,10 @@ dependencies:
 # scripting
   - click
   - python-dotenv
+# standaard project-structuur en pipelines
+  - kedro
+# metadata van dataframes
+  - pandas-profiling>=2.6
 # visualisatie
   - matplotlib
   - seaborn
