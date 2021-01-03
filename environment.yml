@@ -31,6 +31,8 @@ dependencies:
   - python-dotenv
 # standaard project-structuur en pipelines
   - kedro
+# windows specifiek
+  - winreg
 # metadata van dataframes
   - pandas-profiling>=2.6
 # visualisatie
