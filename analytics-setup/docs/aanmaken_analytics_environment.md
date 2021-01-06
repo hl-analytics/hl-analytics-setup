@@ -19,12 +19,12 @@ Voor het werken met Python maken we een ```environment```. Een environment is ee
     ```
     ls
     ```
+
 1. Als je het volgende ziet, sta je in de goede directory:
 
     ```
     README.md	analytics-setup	environment.yml
     ```
-
 
 1. Geef dan het volgende commando:
 
