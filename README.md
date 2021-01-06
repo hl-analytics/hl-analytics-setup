@@ -1,4 +1,11 @@
-# Waarom een ```analytics```-environment voor analytics?
-Werken met data Om Python te kunnen gebruiken installeren we Anaconda. Voor het werken met Python maken we een python-environment: een afgeschermde omgeving waarin je python packages kan installeren en verwijderen. Per PC kan je meerdere environments maken, maar dat is doorgaans niet nodig. We maken een standaard 'analytics'-environment met packages die we veel gebruiken.
+# Installeren en configureren van een ```analytics```-environment 
+Werken met data Python en R vergt de juiste software. Dit package beschrijft hoe je op je eigen laptop een omgeving kunt installeren.
 
 Het installatieproces staat hier beschreven: https://hl-analytics.github.io/hl-analytics-setup/
+
+Als je de documentatie op bovenstaande site wil bijwerken, dan pas je de documenten in de ```docs``` directory aan. Dat zijn bestanden in het Markdown-formaat. Als je die hebt aangepast kan je de site publiceren op bovenstaande url met het volgende commando:
+
+```
+cd GitHub/hl-analytics-setup/analytics-setup
+mkdocs gh-deploy
+```
