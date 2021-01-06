@@ -14,11 +14,13 @@ Voor het werken met Python maken we een ```environment```. Een environment is ee
     cd GitHub/hl-analytics-setup
     ```
 
+
 1. Controleer dat je in de goede directory bent met:
 
     ```
     ls
     ```
+
 
 1. Als je het volgende ziet, sta je in de goede directory:
 
@@ -32,11 +34,13 @@ Voor het werken met Python maken we een ```environment```. Een environment is ee
     conda env create -f environment.yml
     ```
 
+
 1. Als de environment is aangemaakt typ het volgende commando:
 
     ```
     conda init powershell
     ```
+
 
 1. Nu kun je werken in de analytics environment.
 
