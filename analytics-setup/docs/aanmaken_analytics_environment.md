@@ -37,6 +37,7 @@ Voor het werken met Python maken we een ```environment```. Een environment is ee
     ```
     conda init powershell
     ```
+
 1. Nu kun je werken in de analytics environment.
 
 Ga nu naar [werken met analytics environment](werken_met_analytics_environment.md)
