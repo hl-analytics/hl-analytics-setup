@@ -16,6 +16,6 @@ nav:
       - Aanmaken analytics environment: 'aanmaken_analytics_environment.md'
       - Standaard imports: 'imports.md'
       - Updates: 'updaten_environment.md'
-    - Werken met analytics-environment:
+    - 'Aan de slag':
       - 'powershell.md'
       - 'werken_met_analytics_environment.md'
