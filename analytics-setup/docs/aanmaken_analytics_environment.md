@@ -42,6 +42,10 @@ Voor het werken met Python maken we een ```environment```. Een environment is ee
     ```
 
 
+
+## Installeren packages
+Installeer in de analytics-environment in ieder geval de analytics-tools-package. Hoe dat moet staat beschreven in de [README.md](https://github.com/hl-analytics/analytics-tools/blob/main/README.md)
+
 1. Nu kun je werken in de analytics environment.
 
 Ga nu naar [werken met analytics environment](werken_met_analytics_environment.md)
