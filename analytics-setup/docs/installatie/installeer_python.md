@@ -23,6 +23,6 @@ Kies voor de standaardoptie:
 
 ![Screenshot](../img/img-9-79e3e48df9aa4d48aa324def9dfaf706.png)
 
-Vink de eerste optie 'Add Anaconda to my PATH' AAN en druk op 'Install'. Deze stap kan wel even duren (soms wel een half uur). Daarna klik je nog een aantal keer op volgende en is Anaconda geïnstalleerd.
+Vink de eerste optie 'Add Anaconda to my PATH' AAN en druk op 'Install'. Dat is dus anders dan het plaatje hierboven. Deze stap kan wel even duren (soms wel een half uur). Daarna klik je nog een aantal keer op volgende en is Anaconda geïnstalleerd.
 
 ![Screenshot](../img/img-9-594804fe5e6b468cab6faf76e04e5d34.png)
