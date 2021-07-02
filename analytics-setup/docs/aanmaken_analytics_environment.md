@@ -35,13 +35,6 @@ Voor het werken met Python maken we een ```environment```. Een environment is ee
     ```
 
 
-1. Als de environment is aangemaakt typ het volgende commando:
-
-    ```
-    conda init powershell
-    ```
-
-
 
 ## Installeren packages
 Installeer in de analytics-environment in ieder geval de analytics-tools-package. Hoe dat moet staat beschreven in de [README.md](https://github.com/hl-analytics/analytics-tools/blob/main/README.md)
