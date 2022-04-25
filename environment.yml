@@ -4,44 +4,44 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
-  - pandas=1.4
-  - numpy
-  - jupyter
-  - jupyterlab
-  - nb_conda_kernels
-  - ipykernel
+  - python=3.8
+  - pandas=1.2
+  - numpy=1.20
+  - jupyter=1.0
+  - jupyterlab=3.0
+  - nb_conda_kernels=2.3
+  - ipykernel=5.3
 # code format
-  - black
-  - isort
+  - black=19.10
+  - isort=5.8
 # database
-  - pyodbc
-  - sqlalchemy
+  - pyodbc=4.0
+  - sqlalchemy=1.4
 # statistiek
-  - pingouin
-  - scikit-learn
+  - pingouin=0.3
+  - scikit-learn=0.24
 # excel en arrow
-  - pyarrow
-  - openpyxl
-  - xlrd
+  - pyarrow=0.15
+  - openpyxl=3.0
+  - xlrd=1.2
 # documentatie
-  - mkdocs
+  - mkdocs=1.2
 # scripting
-  - click
-  - python-dotenv
+  - click=7.1
+  - python-dotenv=0.18
 # standaard project-structuur en pipelines
-  - pyyaml=6.0 # nodig voor kedro
-  - kedro
+  - pyyaml=5.4 # nodig voor kedro
+  - kedro=0.17
 # metadata van dataframes
-  - pandas-profiling=3.1
+  - pandas-profiling=3.0
 # visualisatie
-  - matplotlib
-  - seaborn
-  - plotly
-  - bokeh
-  - altair
-  - altair_data_server
-  - altair_saver
-  - pip
+  - matplotlib=3.3
+  - seaborn=0.11
+  - plotly=4.11
+  - bokeh=2.3
+  - altair=4.1
+  - altair_data_server=0.4
+  - altair_saver=0.5
+  - pip=21.0sav
   - pip:
      - savReaderWriter
