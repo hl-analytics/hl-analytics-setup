@@ -1,6 +1,6 @@
 name: analytics
 channels:
-#  - anaconda
+  - anaconda
   - conda-forge
   - defaults
 dependencies:
