@@ -2,6 +2,7 @@ name: analytics
 channels:
   - anaconda
   - conda-forge
+  - conda-forge/labels/broken
   - defaults
 dependencies:
   - python=3.10
