@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - pandas>=1.0
+  - pandas=1.4
   - numpy
   - jupyter
   - jupyterlab
@@ -30,9 +30,10 @@ dependencies:
   - click
   - python-dotenv
 # standaard project-structuur en pipelines
+  - pyyaml=6.0 # nodig voor kedro
   - kedro
 # metadata van dataframes
-  - pandas-profiling>=2.6
+  - pandas-profiling=3.1
 # visualisatie
   - matplotlib
   - seaborn
