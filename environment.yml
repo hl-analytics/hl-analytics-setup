@@ -25,7 +25,7 @@ dependencies:
   - scikit-learn=0.24
   - scipy=1.5.2 # ter voorkoming van phik incompatibility
 # excel en arrow
-  - pyarrow=1.0.1 #nodig voor pandas om parquet in te laden
+  - pyarrow=7.0 #nodig voor pandas om parquet in te laden
   - openpyxl=3.0
   - xlrd=1.2
 # documentatie
