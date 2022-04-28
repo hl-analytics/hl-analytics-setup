@@ -12,6 +12,8 @@ dependencies:
   - nbformat=5.3 # ter voorkoming van 'capture_validation_error' bij openen notebooks
   - nb_conda_kernels=2.3
   - ipykernel=5.3
+# SPSS inlezen
+  - pyreadstat=1.1
 # code format
   - black=19.10
   - isort=5.8
@@ -23,7 +25,7 @@ dependencies:
   - scikit-learn=0.24
   - scipy=1.5.2 # ter voorkoming van phik incompatibility
 # excel en arrow
-  - pyarrow=0.15
+  - pyarrow=1.0.1 #nodig voor pandas om parquet in te laden
   - openpyxl=3.0
   - xlrd=1.2
 # documentatie
