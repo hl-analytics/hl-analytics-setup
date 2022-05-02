@@ -59,7 +59,7 @@
 </li>
                                     
 <li>
-    <a href="../imports/" class="dropdown-item">Standaard imports</a>
+    <a href="../jupyter/" class="dropdown-item">Opstart directory</a>
 </li>
                                     
 <li>
@@ -118,6 +118,14 @@
             
             <li class="nav-item" data-level="1"><a href="#werken-met-de-analytics-environment" class="nav-link">Werken met de analytics-environment</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#the-shell-is-your-friend" class="nav-link">'The shell is your friend'.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#conventies-bij-notebooks" class="nav-link">Conventies bij notebooks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -126,14 +134,24 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="werken-met-de-analytics-environment">Werken met de analytics-environment</h1>
-<p>'The shell is your friend'. Echt waar. Start <a href="../powershell/">PowerShell</a>.</p>
-<p>Iedere keer dat je wil werken met Python start je de <code>analytics</code> environment. Het maakt niet uit in welke directory je dat doet.</p>
+<h2 id="the-shell-is-your-friend">'The shell is your friend'.</h2>
+<p>Echt waar, dus start <a href="../powershell/">PowerShell</a>.</p>
+<p>Iedere keer dat je wil werken met Python start je met PowerShell de <code>analytics</code> environment. Het maakt niet uit in welke directory je dat doet.</p>
 <p>Je start de environment met:</p>
 <pre><code>conda activate analytics
 </code></pre>
 <p>Daarna start je Jupyter lab met:</p>
 <pre><code>jupyter lab
-</code></pre></div>
+</code></pre>
+<h2 id="conventies-bij-notebooks">Conventies bij notebooks</h2>
+<ol>
+<li>Probeer niet elkaars notebook te gebruiken, maar maak een kopie van het notebook</li>
+<li>Hanteer het volgende stramien: <code>20210101 - &lt;naam&gt; - &lt;titel&gt;.ipynb</code></li>
+<li>Als je functies maakt, gebruik dan in de naamgeving de conventies die gelden bij Python (zie <a href="https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html">hier</a>).</li>
+<li>Probeer volgens het functional programming-principe te werken. Dat wil zeggen, probeer in je notebook te werken met functies die iets ontvangen (een dataframe bijv.) en die ook weer iets teruggeeft (een dataframe :).</li>
+<li>Werken met notebooks is handig, maar niet voor alles. Als je notebook groter wordt, je meer 'draaiende onderdelen' hebt, dan loont het de moeite om met modules te gaan werken. Een Python-module is niet meer dan een tekst-bestand dat niet eindigtop .txt maar op .py.</li>
+<li>Test en probeer je functie in je notebook, ben je tevreden zet 'm dan in een <code>.py</code>-bestand. Dat maakt het ook voor anderen makkelijk om in hun eigen notebook met je code te werken.</li>
+</ol></div>
             </div>
         </div>
 

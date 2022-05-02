@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Standaard imports - analytics setup</title>
+        <title>Opstart directory - analytics setup</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -59,7 +59,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Standaard imports</a>
+    <a href="./" class="dropdown-item active">Opstart directory</a>
 </li>
                                     
 <li>
@@ -118,14 +118,6 @@
             
             <li class="nav-item" data-level="1"><a href="#configureren" class="nav-link">Configureren</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#voorbereiding" class="nav-link">Voorbereiding</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#standaard-imports" class="nav-link">Standaard imports</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
             <li class="nav-item" data-level="2"><a href="#opstarten-directory-jupyter-lab" class="nav-link">Opstarten-directory Jupyter lab</a>
               <ul class="nav flex-column">
               </ul>
@@ -139,35 +131,13 @@
 
 <h1 id="configureren">Configureren</h1>
 <p>Om het werken makkelijk te maken worden hieronder een aantal stappen gegeven die het werken eenvoudig maken. Het zijn stappen die je maar 1x doet, als je Anaconda hebt geinstalleerd.</p>
-<h2 id="voorbereiding">Voorbereiding</h2>
-<p>Bij het werken met python is het vaak gebruikelijk om packages af te korten. Bijvoorbeeld: <code>import pandas as pd</code>.
- Daarnaast is het handig dat je jupyter lab altijd opent in dezelfde directory. Hieronder wordt een profile aangemaakt waarmee je dat kan configureren.</p>
-<p>LET OP: hieronder wordt gesproken over een directory met een punt voor de naam (<code>.ipython</code>). Dat betekent op Windows vaak dat je het bestand of de directory niet ziet in Explorer (het is een 'hidden'-directory). Ook toont Windows niet standaard de extensie van een bestand (.zip, .xlsx, .py etc). Ook dat is onhandig voor het werken met python en R. 
-Om beiden toch zichtbaar te maken volg je de instructies [hier] (https://support.winzip.com/hc/en-us/articles/115011457948-How-to-configure-Windows-to-show-file-extensions-and-hidden-files) voor Windows 10.</p>
-<h2 id="standaard-imports">Standaard imports</h2>
-<p>Controleer of de volgende directory bestaat:</p>
-<ol>
-<li>op MacOS: /Users/<gebruikersnaam>/.ipython/profile_default/startup</li>
-<li>op Linux: /home/<gebruikersnaam>/.ipython/profile_default/startup</li>
-<li>op Windows: C:\Users\gebruikersnaam.ipython\profile_default\startup</li>
-</ol>
-<p>Als dat <em>niet</em> zo is, start dan PowerShell en geef het volgende commando:</p>
-<pre><code>ipython profile create
-</code></pre>
-<p>Maak in de <code>startup</code>-directory een bestand <code>01-analytics.py</code> (LET OP: eindigt dus op .py en niet op .txt oid) en zet daar in:</p>
-<pre><code class="language-python">import numpy as np
-import pandas as pd
-import altair as alt
-import os
-</code></pre>
-<p>Iedere keer dat je nu een notebook gebruikt, zijn deze imports al gedaan.</p>
 <h2 id="opstarten-directory-jupyter-lab">Opstarten-directory Jupyter lab</h2>
 <p>Als je Jupyter lab opstart zie je standaard in de linkernavigatie de bestanden en directories van de plek waar je het commando gaf om jupyter lab te starten. Dat is onhandig. Je wil eigenlijk altijd dat je daar de directory ziet waar je je notebooks of python-code opslaat. Hieronder zetten een voorkeur voor Jupyter lab om dat te kunnen.</p>
 <p>Op het volgende bestand:</p>
 <ol>
 <li>op MacOS: /Users/<gebruikersnaam>/.jupyter/jupyter_notebook_config.py</li>
 <li>op Linux: /home/<gebruikersnaam>/.jupyter/jupyter_notebook_config.py</li>
-<li>op Windows: C:\Users\gebruikersnaam.jupyter/jupyter_notebook_config.py</li>
+<li>op Windows: C:/Users/gebruikersnaam/.jupyter/jupyter_notebook_config.py</li>
 </ol>
 <p>Zoek in het bestand naar de regel die begint met <code>#c.NotebookApp.notebook_dir =</code></p>
 <p>Haal bij die regel het <code>#</code>-teken weg.</p>
@@ -177,7 +147,7 @@ import os
 #c.NotebookApp.nbserver_extensions = {}
 
 ## The directory to use for notebooks and kernels.
-c.NotebookApp.notebook_dir = 'C:\Users\&lt;gebruikersnaam&gt;\Github'
+c.NotebookApp.notebook_dir = 'C:/Users/&lt;gebruikersnaam&gt;/Github'
 
 ## Whether to open in a browser after starting. The specific browser used is
 #  platform dependent and determined by the python standard library `webbrowser`
