@@ -15,9 +15,9 @@ nav:
       - Installeer Github Desktop: "installatie/installeer_github_desktop.md"
       - Installeer (Anaconda) Python: "installatie/installeer_python.md"
   - "Configuratie":
-      - Aanmaken analytics environment: "aanmaken_analytics_environment.md"
-      - Opstart directory: "jupyter.md"
-      - Updates: "updaten_environment.md"
+      - Aanmaken environment: "configuratie/aanmaken_analytics_environment.md"
+      - Opstart directory: "configuratie/jupyter.md"
+      - Updates: "configuratie/updaten_environment.md"
   - "Aan de slag":
-      - Powershell: "powershell.md"
-      - Werken met environment: "werken_met_analytics_environment.md"
+      - Powershell: "aan_de_slag/powershell.md"
+      - Werken met environment: "aan_de_slag/werken_met_analytics_environment.md"
