@@ -28,13 +28,14 @@ Voor het werken met Python maken we een ```environment```. Een environment is ee
     README.md	analytics-setup	environment.yml
     ```
 
-1. Geef dan het volgende commando:
+1. Geef dan de volgende commando's:
 
     ```
-    conda env create -f environment.yml
+    conda config --add channels conda-forge
+    conda config --set channel_priority 'strict'
+    conda install -n base -c conda-forge mamba
+    mamba env create -f environment.yml
     ```
-
-
 
 ## Installeren packages
 Installeer in de analytics-environment in ieder geval de analytics-tools-package. Hoe dat moet staat beschreven in de [README.md](https://github.com/hl-analytics/analytics-tools/blob/main/README.md)

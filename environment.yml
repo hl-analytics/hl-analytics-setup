@@ -1,52 +1,45 @@
 name: analytics
 channels:
-  - anaconda
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
-  - python=3.8
-  - pandas=1.2
-  - numpy=1.20
-  - jupyter=1.0
-  - jupyterlab=3.0
-  - nbformat=5.3 # ter voorkoming van 'capture_validation_error' bij openen notebooks
-  - nb_conda_kernels=2.3
-  - ipykernel=5.3
-# SPSS inlezen
-  - pyreadstat=1.1
-# code format
-  - black=19.10
-  - isort=5.8
-# database
-  - pyodbc=4.0
-  - sqlalchemy=1.4
-# statistiek
-  - pingouin=0.3
-  - scikit-learn=0.24
-  - scipy=1.5.2 # ter voorkoming van phik incompatibility
-# excel en arrow
-  - pyarrow=7.0 #nodig voor pandas om parquet in te laden
-  - openpyxl=3.0
-  - xlrd=1.2
-# documentatie
-  - mkdocs=1.2
-# scripting
-  - click=7.1
-  - python-dotenv=0.18
-# standaard project-structuur en pipelines
-  - pyyaml=5.4 # nodig voor kedro
-  - kedro=0.17
-# metadata van dataframes
-  - pandas-profiling=3.0
-  - tangled-up-in-unicode=0.1.0 # ter voorkoming van pandas-profiling incompatibility
-# visualisatie
-  - matplotlib=3.3
-  - seaborn=0.11
-  - plotly=4.11
-  - bokeh=2.3
-  - altair=4.1
-  - altair_data_server=0.4
-  - altair_saver=0.5
-  - pip=21.0
-  - pip:
-     - savReaderWriter
+  - python=3.10
+  - pandas
+  - numpy
+  - jupyter
+  - jupyterlab
+  - nbformat # ter voorkoming van 'capture_validation_error' bij openen notebooks
+  - nb_conda_kernels
+  - ipykernel
+  # SPSS inlezen
+  - pyreadstat
+  # code format
+  - black
+  - isort
+  # database
+  - pyodbc
+  - sqlalchemy
+  # statistiek
+  - scikit-learn
+  - scipy # ter voorkoming van phik incompatibility
+  # excel en arrow
+  - pyarrow #nodig voor pandas om parquet in te laden
+  - openpyxl
+  - xlrd
+  # documentatie
+  - mkdocs
+  # scripting
+  - click
+  - python-dotenv
+  # metadata van dataframes
+  - pandas-profiling
+  - tangled-up-in-unicode # ter voorkoming van pandas-profiling incompatibility
+  # visualisatie
+  - matplotlib
+  - seaborn
+  - plotly
+  - bokeh
+  - altair
+  - altair_data_server
+  - altair_saver
+  - pip
