@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        
+        <link rel="canonical" href="https://hl-analytics.github.io/hl-analytics-setup/werken_met_analytics_environment/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Installeer (Anaconda) Python - analytics setup</title>
+        <title>Werken met environment - analytics setup</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../index.html">analytics setup</a>
+                <a class="navbar-brand" href="..">analytics setup</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -35,18 +35,18 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="../index.html" class="nav-link">home</a>
+                                <a href=".." class="nav-link">home</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Installatie <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="installeer_github_desktop.html" class="dropdown-item">Installeer Github Desktop</a>
+    <a href="../installatie/installeer_github_desktop/" class="dropdown-item">Installeer Github Desktop</a>
 </li>
                                     
 <li>
-    <a href="installeer_python.html" class="dropdown-item active">Installeer (Anaconda) Python</a>
+    <a href="../installatie/installeer_python/" class="dropdown-item">Installeer (Anaconda) Python</a>
 </li>
                                 </ul>
                             </li>
@@ -55,28 +55,28 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../aanmaken_analytics_environment.html" class="dropdown-item">Aanmaken analytics environment</a>
+    <a href="../aanmaken_analytics_environment/" class="dropdown-item">Aanmaken analytics environment</a>
 </li>
                                     
 <li>
-    <a href="../jupyter.html" class="dropdown-item">Opstart directory</a>
+    <a href="../jupyter/" class="dropdown-item">Opstart directory</a>
 </li>
                                     
 <li>
-    <a href="../updaten_environment.html" class="dropdown-item">Updates</a>
+    <a href="../updaten_environment/" class="dropdown-item">Updates</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Aan de slag <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../powershell.html" class="dropdown-item">Werken met PowerShell</a>
+    <a href="../powershell/" class="dropdown-item">Powershell</a>
 </li>
                                     
 <li>
-    <a href="../werken_met_analytics_environment.html" class="dropdown-item">Werken met de analytics-environment</a>
+    <a href="./" class="dropdown-item active">Werken met environment</a>
 </li>
                                 </ul>
                             </li>
@@ -89,14 +89,17 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="installeer_github_desktop.html" class="nav-link">
+                                <a rel="prev" href="../powershell/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../aanmaken_analytics_environment.html" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/hl-analytics/hl-analytics-setup/edit/master/docs/werken_met_analytics_environment.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -116,8 +119,12 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#installeren-van-python-anaconda" class="nav-link">Installeren van Python (Anaconda)</a>
+            <li class="nav-item" data-level="1"><a href="#werken-met-de-analytics-environment" class="nav-link">Werken met de analytics-environment</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#the-shell-is-your-friend" class="nav-link">'The shell is your friend'.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -125,31 +132,16 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="installeren-van-python-anaconda">Installeren van Python (Anaconda)</h2>
-<p>Een beknopte handleiding voor het installeren van Python met Anaconda. Anaconda heeft zelf ook een <a href="https://www.datacamp.com/community/tutorials/installing-anaconda-windows">goede beschrijving</a> van hoe je het moet installeren.</p>
-<p>Ga naar <a href="https://www.anaconda.com/download/">Anaconda</a>.</p>
-<p>Download de laatste 64-bits versie (eindigend op '_64.exe')</p>
-<p>Dubbelklik op het gedownloade bestand:</p>
-<p><img alt="Screenshot" src="../img/img-9-1bbdafbb91254cc6876c00f6d2db11f6.png" /></p>
-<p>Druk op Next.</p>
-<p><img alt="Screenshot" src="../img/img-9-419ee59317684063b140d1a61476f0d5.png" /></p>
-<p>Druk op I agree.</p>
-<p><img alt="Screenshot" src="../img/img-9-3fe53caf731a44e7a224c778cb94c6a4.png" /></p>
-<p>Kies voor de standaardoptie, 'Just me':</p>
-<p><img alt="Screenshot" src="../img/img-9-79e3e48df9aa4d48aa324def9dfaf706.png" /></p>
-<p>Druk op 'Install'. Deze stap kan wel even duren (soms wel een half uur). Daarna klik je nog een aantal keer op volgende en is Anaconda geïnstalleerd.</p>
-<p><img alt="Screenshot" src="../img/img-9-594804fe5e6b468cab6faf76e04e5d34.png" /></p>
-<ol>
-<li>Start PowerShell</li>
-<li>
-<p>Ga naar de <code>condabin</code>-directory waar je Anaconda hebt geinstalleerd, bijv.</p>
-<p><code>cd D:\Anaconda3-BE\condabin</code></p>
-</li>
-<li>
-<p>Ryp het volgende commando:</p>
-<p><code>./conda.bat init powershell</code></p>
-</li>
-</ol></div>
+<h1 id="werken-met-de-analytics-environment">Werken met de analytics-environment</h1>
+<h2 id="the-shell-is-your-friend">'The shell is your friend'.</h2>
+<p>Echt waar, dus start <a href="../powershell/">PowerShell</a>.</p>
+<p>Iedere keer dat je wil werken met Python start je met PowerShell de <code>analytics</code> environment. Het maakt niet uit in welke directory je dat doet.</p>
+<p>Je start de environment met:</p>
+<pre><code>conda activate analytics
+</code></pre>
+<p>Daarna start je Jupyter lab met:</p>
+<pre><code>jupyter lab
+</code></pre></div>
             </div>
         </div>
 

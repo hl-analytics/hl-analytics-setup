@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="None">
         
-        
+        <link rel="canonical" href="https://hl-analytics.github.io/hl-analytics-setup/">
         <link rel="shortcut icon" href="img/favicon.ico">
         <title>analytics setup</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <body class="homepage">
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="index.html">analytics setup</a>
+                <a class="navbar-brand" href=".">analytics setup</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -35,18 +35,18 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem active">
-                                <a href="index.html" class="nav-link">home</a>
+                                <a href="." class="nav-link">home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Installatie <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="installatie/installeer_github_desktop.html" class="dropdown-item">Installeer Github Desktop</a>
+    <a href="installatie/installeer_github_desktop/" class="dropdown-item">Installeer Github Desktop</a>
 </li>
                                     
 <li>
-    <a href="installatie/installeer_python.html" class="dropdown-item">Installeer (Anaconda) Python</a>
+    <a href="installatie/installeer_python/" class="dropdown-item">Installeer (Anaconda) Python</a>
 </li>
                                 </ul>
                             </li>
@@ -55,15 +55,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="aanmaken_analytics_environment.html" class="dropdown-item">Aanmaken analytics environment</a>
+    <a href="aanmaken_analytics_environment/" class="dropdown-item">Aanmaken analytics environment</a>
 </li>
                                     
 <li>
-    <a href="jupyter.html" class="dropdown-item">Opstart directory</a>
+    <a href="jupyter/" class="dropdown-item">Opstart directory</a>
 </li>
                                     
 <li>
-    <a href="updaten_environment.html" class="dropdown-item">Updates</a>
+    <a href="updaten_environment/" class="dropdown-item">Updates</a>
 </li>
                                 </ul>
                             </li>
@@ -72,11 +72,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="powershell.html" class="dropdown-item">Werken met PowerShell</a>
+    <a href="powershell/" class="dropdown-item">Powershell</a>
 </li>
                                     
 <li>
-    <a href="werken_met_analytics_environment.html" class="dropdown-item">Werken met de analytics-environment</a>
+    <a href="werken_met_analytics_environment/" class="dropdown-item">Werken met environment</a>
 </li>
                                 </ul>
                             </li>
@@ -94,9 +94,12 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="installatie/installeer_github_desktop.html" class="nav-link">
+                                <a rel="next" href="installatie/installeer_github_desktop/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/hl-analytics/hl-analytics-setup/edit/master/docs/index.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -141,17 +144,17 @@
 <p>Als je wil starten met analytics en Python zul je een aantal tools moeten installeren. Het vergt een omgeving waarin je kan werken met de juiste tools. Hier wordt beschreven hoe je snel up-and-running kunt zijn.</p>
 <h2 id="stap-1-installatie">Stap 1: Installatie</h2>
 <h3 id="anaconda">Anaconda</h3>
-<p>Om te werken met Python of R moet dat geinstalleerd worden. Anaconda is een manier om Python (maar ook R) te installeren. De installatie staat <a href="installatie/installeer_python.html">hier</a> beschreven. </p>
+<p>Om te werken met Python of R moet dat geinstalleerd worden. Anaconda is een manier om Python (maar ook R) te installeren. De installatie staat <a href="installatie/installeer_python/">hier</a> beschreven. </p>
 <h3 id="github-desktop">Github Desktop</h3>
 <p>Een belangrijk principe in het werken met analytics is het scheiden van code en data. Daardoor is het makkelijk om code te delen en reproduceerbaar te maken. Je code (de scripts die je gebruikt om je analyse te maken) sla je doorgaans op in een versiebeheersysteem (git). Dat betekent dat je je code op een centrale plek opslaat, zodat ook anderen daar stukjes aan kunnen toevoegen of gewoon je code gebruiken. Github biedt een centrale plek om die code op te slaan en heeft een tool om dat te doen, Github Desktop.
-<a href="installatie/installeer_github_desktop.html">hier</a> beschreven. </p>
+<a href="installatie/installeer_github_desktop/">hier</a> beschreven. </p>
 <h3 id="visual-studio-code">Visual Studio Code</h3>
 <p>Werken met Python is eigenlijk programmeren. Programmeurs hebben allerlei tools en hulpmiddelen om het werken makkelijk te maken (automatische controle op syntax-fouten, documentatie-tools, etc.). Visual Studio Code is een tool waarmee je python-, R-, html- json-, csv- en andere files kan bewerken. Installatie staat <a href="https://code.visualstudio.com/download">hier</a></p>
 <h2 id="stap-2-configureren">Stap 2: Configureren</h2>
 <h3 id="aanmaken-analytics-environment">Aanmaken analytics environment</h3>
-<p>Voor het werken met Python maken we een <code>environment</code>. Een environment is een afgeschermde omgeving waarin je Python packages kan installeren en verwijderen. Hoe je dat doet staat <a href="aanmaken_analytics_environment.html">hier</a> beschreven. Ook staat beschreven hoe je onze eigen packages kan installeren.</p>
+<p>Voor het werken met Python maken we een <code>environment</code>. Een environment is een afgeschermde omgeving waarin je Python packages kan installeren en verwijderen. Hoe je dat doet staat <a href="aanmaken_analytics_environment/">hier</a> beschreven. Ook staat beschreven hoe je onze eigen packages kan installeren.</p>
 <h2 id="stap-3-aan-de-slag-met-een-standaardwerkwijze">Stap 3: Aan de slag met een standaardwerkwijze</h2>
-<p>Als Python is geinstalleerd kan je aan de slag. Hoe je dat doet staat <a href="werken_met_analytics_environment.html">hier</a>.</p></div>
+<p>Als Python is geinstalleerd kan je aan de slag. Hoe je dat doet staat <a href="werken_met_analytics_environment/">hier</a>.</p></div>
             </div>
         </div>
 
@@ -232,5 +235,5 @@
 
 <!--
 MkDocs version : 1.2.1
-Build Date UTC : 2022-05-04 07:31:06.978125+00:00
+Build Date UTC : 2022-05-04 07:37:17.150470+00:00
 -->
