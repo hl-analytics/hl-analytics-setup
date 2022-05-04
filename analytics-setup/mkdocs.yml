@@ -1,4 +1,6 @@
 site_name: analytics setup
+site_url: https://hl-analytics.github.io/hl-analytics-setup/
+repo_url: https://github.com/hl-analytics/hl-analytics-setup
 extra_css:
   - css/extra.css
 theme:
@@ -10,12 +12,12 @@ theme:
 nav:
   - index.md
   - "Installatie":
-      - "installatie/installeer_github_desktop.md"
+      - Installeer Github Desktop: "installatie/installeer_github_desktop.md"
       - Installeer (Anaconda) Python: "installatie/installeer_python.md"
   - "Configuratie":
       - Aanmaken analytics environment: "aanmaken_analytics_environment.md"
       - Opstart directory: "jupyter.md"
       - Updates: "updaten_environment.md"
   - "Aan de slag":
-      - "powershell.md"
-      - "werken_met_analytics_environment.md"
+      - Powershell: "powershell.md"
+      - Werken met environment: "werken_met_analytics_environment.md"
