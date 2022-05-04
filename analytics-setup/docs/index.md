@@ -17,7 +17,7 @@ Werken met Python is eigenlijk programmeren. Programmeurs hebben allerlei tools 
 ## Stap 2: Configureren
 
 ### Aanmaken analytics environment
-Voor het werken met Python maken we een ```environment```. Een environment is een afgeschermde omgeving waarin je Python packages kan installeren en verwijderen. Hoe je dat doet staat [hier](aanmaken_analytics_environment.md) beschreven. Ook staat beschreven hoe je onze eigen packages kan installeren.
+Voor het werken met Python maken we een ```environment```. Een environment is een afgeschermde omgeving waarin je Python packages kan installeren en verwijderen. Hoe je dat doet staat [hier](configuratie/aanmaken_analytics_environment.md) beschreven. Ook staat beschreven hoe je onze eigen packages kan installeren.
 
 ## Stap 3: Aan de slag met een standaardwerkwijze
-Als Python is geinstalleerd kan je aan de slag. Hoe je dat doet staat [hier](werken_met_analytics_environment.md).
+Als Python is geinstalleerd kan je aan de slag. Hoe je dat doet staat [hier](aan_de_slag/werken_met_analytics_environment.md).
