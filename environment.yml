@@ -30,10 +30,10 @@ dependencies:
   - mkdocs
   # scripting
   - click
+  - typer
   - python-dotenv
   # metadata van dataframes
   - pandas-profiling
-  - tangled-up-in-unicode # ter voorkoming van pandas-profiling incompatibility
   # visualisatie
   - matplotlib
   - seaborn
