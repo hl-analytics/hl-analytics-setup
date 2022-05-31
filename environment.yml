@@ -11,6 +11,11 @@ dependencies:
   - nbformat # ter voorkoming van 'capture_validation_error' bij openen notebooks
   - nb_conda_kernels
   - ipykernel
+  # basistabellen
+  - sqlalchemy_utils
+  - sqlalchemy_schemadisplay  
+  - cbsodata
+  - graphviz  
   # SPSS inlezen
   - pyreadstat
   # code format
