@@ -13,5 +13,5 @@ Van tijd tot tijd zal het bestand environment.yml worden aangevuld (andere versi
 1. Geef het volgende commando:
 
     ```
-    conda env update --file environment.yml  --prune
+    mamba env update --file environment.yml  --prune
     ```

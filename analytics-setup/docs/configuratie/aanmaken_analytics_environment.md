@@ -20,7 +20,12 @@ Voor het werken met Python maken we een ```environment```. Een environment is ee
     ```
     ls
     ```
+    
+    of
 
+    ```
+    dir
+    ```
 
 1. Als je het volgende ziet, sta je in de goede directory:
 

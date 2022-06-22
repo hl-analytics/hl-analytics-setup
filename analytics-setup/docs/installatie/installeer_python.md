@@ -3,9 +3,9 @@
 
 Een beknopte handleiding voor het installeren van Python met Anaconda. Anaconda heeft zelf ook een [goede beschrijving](https://www.datacamp.com/community/tutorials/installing-anaconda-windows) van hoe je het moet installeren.
 
-Ga naar [Anaconda](https://www.anaconda.com/download/).
+Ga naar [Anaconda](https://docs.conda.io/en/latest/miniconda.html#windows-installers).
 
-Download de laatste 64-bits versie (eindigend op '_64.exe')
+Download de laatste 64-bits versie (eindigend op '_64.exe') van *miniconda*
 
 Dubbelklik op het gedownloade bestand:
 
@@ -32,11 +32,11 @@ Druk op 'Install'. Deze stap kan wel even duren (soms wel een half uur). Daarna 
 1. Ga naar de ```condabin```-directory waar je Anaconda hebt geinstalleerd, bijv.
 
     ```
-    cd D:\Anaconda3-BE\condabin
+    cd D:\miniconda\condabin
     ```
 
-1. Ryp het volgende commando:
+1. Typ het volgende commando:
 
     ```
-    ./conda.bat init powershell
+    ./conda.bat init
     ```
