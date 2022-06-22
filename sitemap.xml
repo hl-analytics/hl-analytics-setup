@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://hl-analytics.github.io/hl-analytics-setup/</loc>
-         <lastmod>2022-05-04</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hl-analytics.github.io/hl-analytics-setup/aan_de_slag/powershell/</loc>
-         <lastmod>2022-05-04</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hl-analytics.github.io/hl-analytics-setup/aan_de_slag/werken_met_analytics_environment/</loc>
-         <lastmod>2022-05-04</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hl-analytics.github.io/hl-analytics-setup/configuratie/aanmaken_analytics_environment/</loc>
-         <lastmod>2022-05-04</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hl-analytics.github.io/hl-analytics-setup/configuratie/jupyter/</loc>
-         <lastmod>2022-05-04</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hl-analytics.github.io/hl-analytics-setup/configuratie/updaten_environment/</loc>
-         <lastmod>2022-05-04</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hl-analytics.github.io/hl-analytics-setup/installatie/installeer_github_desktop/</loc>
-         <lastmod>2022-05-04</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hl-analytics.github.io/hl-analytics-setup/installatie/installeer_python/</loc>
-         <lastmod>2022-05-04</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
