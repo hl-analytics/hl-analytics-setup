@@ -1,6 +1,5 @@
 name: analytics
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - python=3.10
@@ -13,9 +12,9 @@ dependencies:
   - ipykernel
   # basistabellen
   - sqlalchemy_utils
-  - sqlalchemy_schemadisplay  
+  - sqlalchemy_schemadisplay
   - cbsodata
-  - graphviz  
+  - graphviz
   # SPSS inlezen
   - pyreadstat
   # code format
@@ -24,6 +23,8 @@ dependencies:
   # database
   - pyodbc
   - sqlalchemy
+  - SQLAlchemy-Utils
+  - sqlalchemy_schemadisplay
   # statistiek
   - scikit-learn
   - scipy # ter voorkoming van phik incompatibility
@@ -47,4 +48,8 @@ dependencies:
   - altair
   - altair_data_server
   - altair_saver
+  # cbs
+  - graphviz
   - pip
+  - pip:
+      - cbsodata
