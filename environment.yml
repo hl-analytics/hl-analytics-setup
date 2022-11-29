@@ -11,9 +11,6 @@ dependencies:
   - nb_conda_kernels
   - ipykernel
   # basistabellen
-  - sqlalchemy_utils
-  - sqlalchemy_schemadisplay
-  - cbsodata
   - graphviz
   # SPSS inlezen
   - pyreadstat
