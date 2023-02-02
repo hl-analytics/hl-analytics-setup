@@ -47,6 +47,11 @@ dependencies:
   - altair_saver
   # cbs
   - graphviz
+  # validatie
+  - pandera
+  - frictionless
+  - typed-ast
+  # pip packages
   - pip
   - pip:
       - cbsodata
