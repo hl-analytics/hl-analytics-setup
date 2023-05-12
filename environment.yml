@@ -55,4 +55,3 @@ dependencies:
   - pip
   - pip:
       - cbsodata
-      - sqlalchemy-utils
