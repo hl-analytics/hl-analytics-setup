@@ -11,9 +11,6 @@ dependencies:
   - nb_conda_kernels
   - ipykernel
   # basistabellen
-  #  - sqlalchemy_utils
-  - sqlalchemy_schemadisplay
-  #  - cbsodata
   - graphviz
   # SPSS inlezen
   - pyreadstat
@@ -50,6 +47,11 @@ dependencies:
   - altair_saver
   # cbs
   - graphviz
+  # validatie
+  - pandera
+  - frictionless
+  - typed-ast
+  # pip packages
   - pip
   - pip:
       - cbsodata
