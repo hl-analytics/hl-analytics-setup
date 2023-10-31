@@ -11,7 +11,7 @@ dependencies:
   - nb_conda_kernels
   - ipykernel
   # basistabellen
-  - case-converter
+  - stringcase
   - graphviz
   # SPSS inlezen
   - pyreadstat
